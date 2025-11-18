@@ -1,20 +1,19 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ultimate AI Page</title>
-  <meta name="description" content="AI chat + image generator. Try advanced AI, create images and have fun.">
+  <meta name="description" content="AI chat + image generator embedded from Hugging Face Spaces.">
 
-  <!-- Insert your AdSense meta / script here -->
-
+  <!-- Example: vlož tady kód pro reklamy / AdSense, pokud máš -->
+  
   <style>
     body {
       margin: 0;
       background: #0d0d14;
       color: #ddd;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
       padding: 20px;
     }
     .container {
@@ -37,7 +36,7 @@
 
     .iframe-wrapper {
       position: relative;
-      padding-top: 56.25%;
+      padding-top: 56.25%; /* 16:9 poměr */
       border-radius: 10px;
       overflow: hidden;
     }
@@ -77,36 +76,35 @@
       margin-top: 40px;
     }
     footer a { color: #aaa; text-decoration: none; }
-
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Ultimate AI Page</h1>
-    <p>Explore advanced AI — chat with it, generate images, and more.</p>
+    <p>Interact with advanced AI — chat and generate images using Hugging Face Spaces.</p>
 
     <div class="card">
       <h2>🧠 AI Chat</h2>
       <div class="iframe-wrapper">
-        <iframe src="https://huggingface.co/spaces/meta-llama/Llama-3.1-8B-Instruct?embedded=true" title="AI Chat"></iframe>
+        <iframe src="https://huggingface.co/spaces?category=text-generation" title="AI Chat"></iframe>
       </div>
     </div>
 
     <div class="ad-section">
-      <!-- Insert AdSense code or another ad here -->
+      <!-- Vlož sem svůj AdSense nebo jinou reklamu -->
       Advertisement
     </div>
 
     <div class="card">
       <h2>🎨 Image Generator</h2>
       <div class="iframe-wrapper">
-        <iframe src="https://huggingface.co/spaces/stabilityai/stable-diffusion-xl?embedded=true" title="Image Generator"></iframe>
+        <iframe src="https://YOUR_IMAGE_SPACE_SUBDOMAIN.hf.space" title="Image Generator"></iframe>
       </div>
     </div>
 
     <div class="ad-section">
-      <!-- Another ad spot -->
-      Another Advertisement
+      <!-- Druhá reklama nebo affiliate -->
+      More Ads
     </div>
 
     <div class="donate">
@@ -114,13 +112,13 @@
     </div>
 
     <div class="card">
-      <h2>About this Site</h2>
-      <p>This site runs on GitHub Pages and uses integrated AI models from Hugging Face Spaces. Everything is free and open.</p>
+      <h2>About This Site</h2>
+      <p>This site is hosted on GitHub Pages and embeds Hugging Face Spaces for AI functionality. Everything is free.</p>
     </div>
 
     <div class="card">
       <h2>Privacy Policy</h2>
-      <p>We do not collect sensitive personal data. Chat prompts and interactions go through Hugging Face. Please review their privacy policy for more info.</p>
+      <p>We do not store private chat data. All interactions go directly through Hugging Face Spaces. See their privacy policy for more info.</p>
     </div>
 
     <footer>
